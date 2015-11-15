@@ -133,35 +133,35 @@ header .link-list {
  */
 
 section#section-beaman {
-	background: #0B7070;
+	background: #004F8F;
 }
 
 section#section-playintheshade {
-	background: #00AA70;
+	background: #0B7070;
 }
 
 section#section-flappysaver {
-	background: #004F8F;
+	background: #00AA70;
 }
 
 section#section-haveyougotwhatittakes {
-	background: #0B7070;
-}
-
-section#section-findyourswede {
-	background: #00AA70;
-}
-
-section#section-brandmap {
 	background: #004F8F;
 }
 
-section#section-podratten {
+section#section-findyourswede {
 	background: #0B7070;
 }
 
-section#section-changehand {
+section#section-brandmap {
 	background: #00AA70;
+}
+
+section#section-podratten {
+	background: #004F8F;
+}
+
+section#section-changehand {
+	background: #0B7070;
 }
 
 section {
