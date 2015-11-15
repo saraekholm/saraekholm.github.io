@@ -7,7 +7,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet" type="text/css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300normal,300italic,700normal&amp;subset=latin" rel="stylesheet" type="text/css">
 	<link href="css/style.css" rel="stylesheet" type="text/css">
-	<link href="css/font-awesome.css" rel="stylesheet" type="text/css">
+	<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
 	<meta name="viewport" content="width=device-width,user-scalable=no,minimal-ui">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	<script type="text/javascript" src="js/site.js"></script>
@@ -21,10 +21,13 @@
 	</nav>
 
 	<header>
-		<img src="images/sara.jpg">
-		<p>Sara Ekholm</p>
-		<p class="intro">I’m a planner from Sweden equipped to tackle the modern media landscape. Fluent in Advertising, Branding, and Digital. Also a strong advocate of common sense.
-		</p>
+		<div class="header-intro">
+			<img src="images/sara.jpg">
+			<div class="intro-inner">
+				<h3>Sara Ekholm</h3>
+				<p class="intro">I’m a planner from Sweden equipped to tackle the modern media landscape. Fluent in Advertising, Branding, and Digital. Also a strong advocate of common sense. </p>
+			</div>
+		</div>
 	</header>
 
 	<section class="expandable" id="section-beaman">
@@ -115,8 +118,6 @@
 					<li><i class="fa fa-inverse fa-trophy award-gold" title="Gold"></i> <span>European Excellence Awards - Event</span></li>
 					<li><i class="fa fa-inverse fa-trophy award-silver" title="Silver"></i> <span>Spinn - Event Marketing of the Year</span></li>
 				</ul>
-
-				<img src="images/cancerfonden.png">
 			</div>
 
 			<div class="narrow">
@@ -143,8 +144,8 @@
 
 			<div class="narrow">
 				<ul class="awards">
-					<li><i class="fa fa-inverse fa-trophy award-gold" title="Gold"></i> <span>European Excellence Awards - Event</span></li>
-					<li><i class="fa fa-inverse fa-trophy award-silver" title="Silver"></i> <span>Spinn - Event Marketing of the Year</span></li>
+					<li><i class="fa fa-inverse fa-trophy award-gold" title="Gold"></i> <span>Midas Award - Apps</span></li>
+					<li><i class="fa fa-inverse fa-trophy award-silver" title="Silver"></i> <span>Guldnyckeln - Finance and Insurances</span></li>
 				</ul>
 			</div>
 
@@ -216,13 +217,13 @@
 
 				<div class="narrow">
 					<p><strong>Problem:</strong> People don’t trust glossy guide books and exploited travel sites, they want authentic advice from someone similar to themselves. </p>
-					<p><strong>Strategy:</strong> Prove that Sweden progressive and by letting people know who they would be if the lived in Sweden, based on personality and not demographics. </p>
+					<p><strong>Strategy:</strong> Prove that Sweden progressive by letting people know who they would be if the lived in Sweden, based on personality and not demographics. </p>
 					<p><strong>Solution:</strong> A test that matches you with your Swedish equal to follow on Instagram.</p>
 				</div>
 
 				<div class="narrow">
 					<p>This Beta version is a minimum viable product where the main focus is on the actual test. We need real data to test and adjust the advanced algorithm working behind the scenes. An new version is to be launched in early 2016. </p>
-					<p>In addition to planning I have also led the development of the actual questions used in the test. We teamed up with a psychologist who created the foundation based on the proven theory of the big five personality traits. To make the matching process better we also added an interest inventory to find areas you find important in your life. </p>
+					<p>In addition to planning I have also led the development of the actual questions used in the test. We teamed up with a psychologist who created the foundation based on the proven theory of the big five personality traits. To make the matching process better we also added an interest inventory. </p>
 					<ul class="link-list">
 						<li><a href="http://findyourswede.com">findyourswede.com</a></li>
 					</ul>
@@ -240,8 +241,8 @@
 			<div class="inner">
 				<div class="narrow">
 					<img src="images/the-one-page-brand-strategy-sara-ekholm.jpg">
-					<p><strong>Problem:</strong> Brand strategy mumbo jumbo. </p>
-					<p><strong>Solution:</strong> Just fill in the blanks.</p>
+					<p><strong>Problem:</strong> Brand strategy terminology. </p>
+					<p><strong>Solution:</strong> Just finish the sentences.</p>
 					<p>I have developed a brand strategy document for Volontaire where I’m currently employed. It’s used by all planners on all clients. The base the whole strategy is a human need. To not interfere or get stuck in discussion on terminology I have avoided the usual strategy concepts. For example, instead of filling in vision, mission, and belief, just finish sentences like “We want…”, “We will...”, “We believe...”.</p>
 				</div>
 			</div>
@@ -302,10 +303,10 @@
 						<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Donec elementum ligula eu sapien consequat eleifend. </p>
 
 						<ul class="link-list">
-						<li><a href="https://linkedin.com/in/saraekholm"><i class="fa fa-linkedin"></i> Sara Ekholm</a></li>
-						<li><a href="http://twitter.com/saraekholm"><i class="fa fa-twitter"></i> @saraekholm</a></li>
-						<li><a href="mailto:saraekholm"><i class="fa fa-send"></i> sara.ekholm@live.com</a></li>
-						<li><a href="call:+46701700116"><i class="fa fa-phone"></i> +46 70-170 01 16</a></li>
+							<li><a href="https://linkedin.com/in/saraekholm"><i class="fa fa-resume"></i> Sara Ekholm</a></li>
+							<li><a href="http://twitter.com/saraekholm"><i class="fa fa-bird"></i> @saraekholm</a></li>
+							<li><a href="#" id="email-link"><i class="fa fa-send"></i> <span id="email-placeholder"></span></a></li>
+							<li><a href="call:+46701700116"><i class="fa fa-phone"></i> +46 70-170 01 16</a></li>
 						</ul>
 					</div>
 
