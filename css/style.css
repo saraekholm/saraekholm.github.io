@@ -185,7 +185,7 @@ section h2 {
 
 section h2,
 section h2 a {
-	font-weight: bold;
+	font-weight: normal;
 	font-style: italic;
 	color: #fff;
 	font-size: 18px;
@@ -428,6 +428,10 @@ footer .link-list {
 
 footer .link-list li {
 	margin: 0 5px;
+}
+
+footer section h2 a {
+	font-style: normal;
 }
 
 footer a {
