@@ -133,35 +133,35 @@ header .link-list {
  */
 
 section#section-beaman {
-	background: #ef4130;
-}
-
-section#section-brandmap {
-	background: #ff9b72;
-}
-
-section#section-flappysaver {
-	background: #03A3B5;
+	background: #0B7070;
 }
 
 section#section-playintheshade {
-	background: #70227b;
-}
-
-section#section-findyourswede {
-	background:rgba(0,79,143,1);
-}
-
-section#section-haveyougotwhatittakes {
-	background: #CE122D;
-}
-
-section#section-podratten {
 	background: #00AA70;
 }
 
+section#section-flappysaver {
+	background: #004F8F;
+}
+
+section#section-haveyougotwhatittakes {
+	background: #0B7070;
+}
+
+section#section-findyourswede {
+	background: #00AA70;
+}
+
+section#section-brandmap {
+	background: #004F8F;
+}
+
+section#section-podratten {
+	background: #0B7070;
+}
+
 section#section-changehand {
-	background: #ed5d58;
+	background: #00AA70;
 }
 
 section {
