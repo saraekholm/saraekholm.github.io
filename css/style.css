@@ -9,7 +9,7 @@ body {
 }
 
 a {
-	color: #2f6f9f;
+	color: #000;
 }
 
 a, p {
@@ -70,6 +70,10 @@ header p.intro {
 	font-size: 18px;
 }
 
+header .link-list {
+	text-align: left;
+}
+
 @media (max-width: 1000px) {
 
 	header .header-intro {
@@ -117,6 +121,11 @@ header p.intro {
 	header img {
 		width: 40%;
 	}
+}
+
+#about-link {
+	text-decoration: none;
+	color: #000;
 }
 
 /**
@@ -350,7 +359,7 @@ section.expanded .inner {
 .link-list {
 	list-style: none;
 	text-align: center;
-	margin: 0;
+	margin: 0 0 0 -15px;
 	padding: 0;
 }
 
@@ -406,6 +415,11 @@ footer section .inner,
 footer h2,
 footer .inner a {
 	color: #000;
+}
+
+.contact li a {
+	color: 000;
+	text-decoration: none;
 }
 
 footer .link-list {

@@ -22,8 +22,8 @@ $(function(){
 	});
 
 	var email = 'es.dnalsirepyh@mlohke.aras'.split("").reverse().join("");
-	$('#email-link').attr('href', 'mailto:' + email);
-	$('#email-placeholder').text(email);
+	$('.email-link').attr('href', 'mailto:' + email);
+	$('.email-placeholder').text(email);
 
 	if (!isTouchDevice) {
 		$('section.expandable').eq(0).click();
