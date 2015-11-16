@@ -74,6 +74,23 @@ header .link-list {
 	text-align: left;
 }
 
+@media (max-width: 600px) {
+
+	header p.intro {
+		text-align: center;
+	}
+
+	header .link-list {
+		text-align: center;
+	}
+
+	header .link-list span {
+		display: none;
+	}
+}
+
+
+
 @media (max-width: 1000px) {
 
 	header .header-intro {
