@@ -80,16 +80,16 @@ header .link-list {
 		text-align: center;
 	}
 
-	header .link-list {
+	header .link-list,
+	footer .link-list {
 		text-align: center;
 	}
 
-	header .link-list span {
+	header .link-list span,
+	footer .link-list span {
 		display: none;
 	}
 }
-
-
 
 @media (max-width: 1000px) {
 
