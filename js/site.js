@@ -17,8 +17,11 @@ $(function(){
 	});
 
 	$('.link-list a').on('click', function(evt) {
-		window.open($(this).attr('href'));
-		evt.preventDefault();
+		var href = $(this).attr('href');
+		if (href.indexOf('http') != -1) {
+			window.open(href);
+			evt.preventDefault();
+		}
 	});
 
 	var email = 'es.dnalsirepyh@mlohke.aras'.split("").reverse().join("");
