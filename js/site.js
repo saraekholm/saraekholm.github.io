@@ -18,7 +18,7 @@ $(function(){
 
 	$('.link-list a').on('click', function(evt) {
 		var href = $(this).attr('href');
-		if (href.indexOf('http') != -1) {
+		if (href.indexOf('http') != -1 || href.indexOf('./') != -1) {
 			window.open(href);
 			evt.preventDefault();
 		}
