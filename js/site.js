@@ -24,6 +24,11 @@ $(function(){
 		}
 	});
 
+	$('#about-link').on('click', function(evt) {
+		evt.preventDefault();
+		$('body').scrollTop($('footer').offset().top);
+	});
+
 	var email = 'es.dnalsirepyh@mlohke.aras'.split("").reverse().join("");
 	$('.email-link').attr('href', 'mailto:' + email);
 	$('.email-placeholder').text(email);
