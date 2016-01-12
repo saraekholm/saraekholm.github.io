@@ -391,6 +391,10 @@ section.expanded .inner {
 	font-size: 12px;
 }
 
+.bullet-list li {
+	font-size: 13px;
+}
+
 .role {
 	text-align: center;
 }
