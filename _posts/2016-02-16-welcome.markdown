@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Welcome to my blog!"
+date:   2016-02-16 22:02:4 +0100
+tags: [english]
+---
+
+I analysed my own personal brand and came to the conclusion that a blog would be the best way to prove that:
+
+1. I’m not lazy (I could say “I’m ambitious” here, but I actually think lazy pinpoints a current perception of planners that I want to refute)
+
+2. I’m curious (probably the most important trait in a planner)
+
+So, here we go! I hope you find this as fun and inspiring as I do!
