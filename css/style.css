@@ -12,8 +12,8 @@ a {
 	color: #000;
 }
 
-a, p {
-	font-size: 13px;
+li, a, p {
+	font-size: 14px;
 }
 
 @media (max-width: 600px) {
@@ -57,9 +57,11 @@ header .header-intro {
 	max-width: 1000px;
 }
 
-header h3 {
+header h3 a {
 	font-weight: normal;
 	font-size: 22px;
+	text-decoration: none;
+	color: #000;
 }
 
 header .intro-inner {
@@ -142,7 +144,7 @@ header .link-list {
 	}
 }
 
-#about-link {
+nav a {
 	text-decoration: none;
 	color: #000;
 }
@@ -185,8 +187,11 @@ section#section-changehand {
 
 section {
 	background: #eee;
-	cursor: pointer;
 	padding: 15px 0 15px 0;
+}
+
+.expandable {
+	cursor: pointer;
 }
 
 section .inner video {
@@ -197,7 +202,7 @@ section.expanded {
 	cursor: default;
 }
 
-section h2 {
+.expandable h2 {
 	text-align: center;
 	padding: 0 25px 0 25px;
 }
@@ -206,17 +211,22 @@ section h2,
 section h2 a {
 	font-weight: normal;
 	font-style: italic;
-	color: #fff;
 	font-size: 18px;
 }
 
-section h3 {
+.expandable h3 {
 	text-align: center;
 	font-size: 16px;
 	font-weight: normal;
-	color: #fff;
 	opacity: 0.8;
 	padding: 0 25px 0 25px;
+}
+
+.expandable h2,
+.expandable h2 a,
+.expandable h3,
+.expandable h3 a {
+	color: #fff;
 }
 
 .stats {
@@ -254,25 +264,25 @@ section .arrow:hover {
 * Section inner layout
 */
 
-section .inner {
+section.expandable .inner {
 	display: none;
 	color: #fff;
 }
 
-section .inner .narrow {
+.inner .narrow {
 	margin: 0 auto;
 	width: 55%;
 	max-width: 1000px;
 }
 
 @media (max-width: 600px) {
-	section .inner .narrow {
+	.inner .narrow {
 		width: 95%;
 	}
 }
 
 @media (max-width: 600px) {
-	section .inner .wide {
+	.inner .wide {
 		width: 100%;
 	}
 }
@@ -362,7 +372,7 @@ section.expanded .inner {
 	/*border: 2px solid #CD7F32;*/
 }
 
-.inner a {
+.expandable .inner a {
 	color: #fff;
 }
 
@@ -455,4 +465,23 @@ footer .link-list li {
 
 footer a {
 	text-decoration: none;
+}
+
+/**
+ * Blog
+ */
+
+.post-list {
+	list-style: none;
+	margin: 0 0 15px 0;
+	padding: 0;
+}
+
+.post-meta {
+	font-size: 10px;
+}
+
+.post-title {
+	margin-bottom: 0;
+	padding-bottom: 0;
 }
