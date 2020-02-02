@@ -177,7 +177,7 @@ h2, #projects a h2, #link-sara h2 {
 	line-height: 21px;	
 }
 
-#page img {
+#page section img {
 	display: block;
 	margin: 30px auto;
 	width: 100%;
