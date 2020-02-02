@@ -33,6 +33,12 @@ header a {
 	text-decoration: none;
 }
 
+header a img {
+	height: 29px;
+	vertical-align: middle;
+	margin-left: 9px;
+}
+
 #projects {
 	display: flex;
 	flex-direction: column;
