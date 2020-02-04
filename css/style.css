@@ -169,15 +169,18 @@ h2, #projects a h2, #link-sara h2 {
 	font-size: 24px;
 	line-height: 33px;
 	margin-bottom: 8px;
+	margin-top: 33px;
 	padding: 0;
 }
 
-#page p {
+#page p,
+#page li {
 	font-size: 18px;
 	line-height: 21px;	
 }
 
-#page section img {
+#page section img,
+#page section video {
 	display: block;
 	margin: 30px auto;
 	width: 100%;
@@ -190,4 +193,35 @@ h2, #projects a h2, #link-sara h2 {
 	display: block;
 	color: #7E7E7E;
 	margin: -18px 0 8px 0;
+}
+
+#page blockquote p {
+	font-family: 'Vollkorn';
+	font-style: italic;
+	font-size: 20px;
+	line-height: 19px;
+}
+
+blockquote cite {
+	font-family: 'Roboto', sans-serif;	
+	font-size: 16px;
+	color: #7E7E7E;
+}
+
+@media (max-width: 480px) {
+	.mobile-only {
+		display: inherit !important;
+	}
+	.desktop-only {
+		display: none !important;
+	}
+}
+
+@media (min-width: 481px) {
+	.desktop-only {
+		display: inherit !important;
+	}
+	.mobile-only {
+		display: none !important;
+	}
 }
