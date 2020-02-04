@@ -200,13 +200,18 @@ h2, #projects a h2, #link-sara h2 {
 	width: 100%;
 }
 
-.image-description {
+#page .image-description {
 	font-size: 16px;
 	line-height: 19px;
 	text-align: center;
 	display: block;
 	color: #7E7E7E;
-	margin: -18px 0 8px 0;
+	margin: -18px 0 30px 0;
+}
+
+#page blockquote {
+	padding: 15px;
+	box-sizing: border-box;
 }
 
 #page blockquote p {
