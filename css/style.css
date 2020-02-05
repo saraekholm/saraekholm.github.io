@@ -194,6 +194,7 @@ h2, #projects a h2, #link-sara h2 {
 }
 
 #page section img,
+#page section iframe,
 #page section video {
 	display: block;
 	margin: 30px auto;
