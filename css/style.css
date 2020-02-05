@@ -228,6 +228,10 @@ blockquote cite {
 	color: #7E7E7E;
 }
 
+.rounded {
+	border-radius: 50%;
+}
+
 @media (max-width: 600px) {
 	.mobile-only {
 		display: inherit !important;
