@@ -215,6 +215,7 @@ h2, #projects a h2, #link-sara h2 {
 }
 
 #page .image-description {
+	font-family: 'Roboto', sans-serif;	
 	font-size: 16px;
 	line-height: 19px;
 	text-align: center;
@@ -262,7 +263,9 @@ blockquote cite {
 	.mobile-only {
 		display: none !important;
 	}
-	#index {
+
+	#index,
+	#page {
 		background: #E6E6E6;
 	}
 
@@ -344,7 +347,11 @@ blockquote cite {
 
 	#footer-contact {
 		width: 100%;
+		background: #fff;
+		border-top: 16px solid #E6E6E6;
 		box-sizing: border-box;
+		margin-bottom: 16px;
+		padding: 42px 5vw;
 	}
 
 	#index #link-sara {
@@ -352,6 +359,5 @@ blockquote cite {
 	}
 
 	#footer-contact {
-		padding: 15px 5vw;
 	}
 }
