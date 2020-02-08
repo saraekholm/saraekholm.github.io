@@ -350,14 +350,12 @@ blockquote cite {
 		background: #fff;
 		border-top: 16px solid #E6E6E6;
 		box-sizing: border-box;
-		margin-bottom: 16px;
 		padding: 42px 5vw;
 	}
 
 	#index #link-sara {
 		padding: 4%;
-	}
-
-	#footer-contact {
+		height: 280px;
+		background-size: 200px;
 	}
 }
