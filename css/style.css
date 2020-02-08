@@ -1,13 +1,20 @@
 body {
-	background: #E6E6E6;
+	background: #fff;
 	margin: 0;
 	padding: 0;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Georgia', serif;
 }
 
 body, 
 a {
 	color: #404040;
+}
+
+h2,
+.type,
+footer,
+h3 {
+	font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -22,7 +29,7 @@ header {
 }
 
 header a {
-	font-family: 'Vollkorn', serif;
+	font-family: 'Georgia', serif;
 	display: block;
 	color: #fff;
 	font-weight: 600;
@@ -51,8 +58,8 @@ header a img {
 	position: relative;
 	flex-direction: column;
 	justify-content: center;
-	width: 90vw;
-	height: 90vw;
+	width: 100vw;
+	height: 100vw;
 	background: #fff no-repeat;
 	background-size: contain;
 	color: #404040;
@@ -82,12 +89,12 @@ header a img {
 }
 
 #projects a:nth-child(odd) {
-	padding-right: 43vw;
+	padding-right: 53vw;
 	text-align: left;
 }
 
 #projects a:nth-child(even), #link-sara {
-	padding-left: 43vw;
+	padding-left: 53vw;
 	text-align: right;
 }
 
@@ -95,9 +102,8 @@ h2, #projects a h2, #link-sara h2 {
 	font-size: 24px;
 	letter-spacing: -0.4px;
 	line-height: 28px;
-	margin-top: 5px;
 	font-weight: bold;
-	margin: 0;
+	margin: 0 0 5px 0;
 	padding: 0;
 }
 
@@ -106,6 +112,8 @@ h2, #projects a h2, #link-sara h2 {
 	font-size: 16px;
 	line-height: 19px;
 	font-weight: normal;
+	margin-top: 5px;
+	display: block;
 }
 
 
@@ -122,12 +130,12 @@ h2, #projects a h2, #link-sara h2 {
 }
 
 #link-sara {
-	height: 180px;
+	height: 230px;
 	margin: 0 auto;
 	background-image: url("../img/sara.jpg");
-	background-size: 100px;
+	background-size: 150px;
 	background-position: 20px center;
-	padding-left: 120px;
+	padding-left: 175px;
 }
 
 #page {
@@ -143,9 +151,11 @@ h2, #projects a h2, #link-sara h2 {
 }
 
 #footer-contact {
-	width: 90vw;
-	margin: 22px auto 22px auto;
+	background: #E6E6E6;
+	margin: 0 auto;
 	font-size: 16px;
+	padding: 22px 5vw 22px 5vw;
+	box-sizing: border-box;
 }
 
 #index #footer-contact h2,
@@ -178,7 +188,6 @@ h2, #projects a h2, #link-sara h2 {
 }
 
 #page h3 {
-	font-family: 'Vollkorn', serif;
 	font-weight: bold;
 	font-size: 24px;
 	line-height: 33px;
@@ -217,13 +226,14 @@ h2, #projects a h2, #link-sara h2 {
 #page blockquote {
 	padding: 15px;
 	box-sizing: border-box;
+	text-align: left;
 }
 
 #page blockquote p {
-	font-family: 'Vollkorn';
+	font-family: 'Georgia';
 	font-style: italic;
-	font-size: 20px;
-	line-height: 19px;
+	font-size: 24px;
+	line-height: 27px;
 }
 
 blockquote cite {
@@ -252,10 +262,13 @@ blockquote cite {
 	.mobile-only {
 		display: none !important;
 	}
+	#index {
+		background: #E6E6E6;
+	}
 
 	#index #projects {
 		max-width: 980px;
-		background: transparent;
+		background: #fff;
 	}
 
 	#index #projects a {
